@@ -27,28 +27,28 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 
-# def directors_totals(nds)
+def directors_totals(nds)
   
-#   directors_totals = {}
-#   row_index = 0 
-#   while row_index < nds.length do 
-#     # movie_index = 0 
-#     # gross_total = 0 
-#     # while movie_index < nds[row_index][:movies].length do
+  directors_totals = {}
+  row_index = 0 
+  while row_index < nds.length do 
+    # movie_index = 0 
+    # gross_total = 0 
+    # while movie_index < nds[row_index][:movies].length do
     
-#     # gross_total += nds[row_index][:movies][movie_index][:worldwide_gross]
+    # gross_total += nds[row_index][:movies][movie_index][:worldwide_gross]
     
-#     # movie_index += 1
-#     #end
-#     # p gross_total
+    # movie_index += 1
+    #end
+    # p gross_total
     
-#     key_name = nds[row_index][:name]
-#     directors_totals[key_name] = gross_for_director(nds)
-#     row_index += 1 
+    key_name = nds[row_index][:name]
+    directors_totals[key_name] = gross_for_director(nds)
+    row_index += 1 
     
-#   end 
-#   directors_totals
-# end
+  end 
+  directors_totals
+end
 
      
     
